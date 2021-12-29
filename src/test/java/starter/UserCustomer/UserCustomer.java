@@ -22,6 +22,12 @@ public class UserCustomer extends BaseTest {
         loginPage.ClickLoadMore();
     }
 
+    //Validate Success Regis
+    @And("Clik OK button")
+    public void clikOKButton() {
+        loginPage.ClickIconOK();
+    }
+
     // Select Product
     @And("I am select Product")
     public void iAmSelectProduct() {

@@ -145,7 +145,7 @@ public class loginPage extends PageObject {
     }
 
     //Select Product
-    @FindBy(id = "0")
+    @FindBy(id = "bp3")
     WebElement Product;
     public void ClickProduct() {
         Product.click();
